@@ -1,5 +1,6 @@
 import axios from "axios";
 import { GET_ITEM_START, GET_ITEM_SUCCESS, GET_ITEM_FAILED } from "./type";
+import { baseUrl } from "./contants";
 
 export const getItemStart = () => {
   return {
@@ -20,9 +21,6 @@ export const getItemFailed = error => {
     payload: error
   };
 };
-
-const apiKey = "bd57a1a7";
-const baseUrl = `http://www.omdbapi.com/?apiKey=${apiKey}`;
 
 export const getItems = queryString => {
   return dispatch => {
