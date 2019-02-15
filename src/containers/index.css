@@ -23,3 +23,16 @@
 .search-box input[type="reset"]:hover {
   background-color: #f2e7e7;
 }
+
+@media screen and (max-width: 430px) {
+  .table {
+    margin: 0 10px;
+  }
+  .search-box input[type="text"] {
+    padding: 0.4rem 0.5rem !important;
+  }
+  .search-box input[type="reset"] {
+    margin-left: 5px;
+    padding: 0.2rem 0.5rem;
+  }
+}
