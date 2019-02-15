@@ -1,0 +1,39 @@
+.table {
+  overflow-x: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 25px auto;
+}
+
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table th {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.error {
+  margin-top: 10px;
+  color: #ff7611;
+}
+
+@media screen and (min-width: 600px) {
+  table {
+    width: 70%;
+  }
+}

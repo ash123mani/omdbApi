@@ -1,0 +1,25 @@
+.search-box {
+  margin: auto;
+}
+
+.search-box input[type="text"] {
+  padding: 0.6rem 1rem;
+  margin: 8px 0;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.search-box input[type="text"]:focus {
+  border: 1px solid #555;
+}
+
+.search-box input[type="reset"] {
+  margin-left: 5px;
+  padding: 0.4rem 1rem;
+}
+
+.search-box input[type="reset"]:hover {
+  background-color: #f2e7e7;
+}
